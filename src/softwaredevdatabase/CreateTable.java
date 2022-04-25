@@ -19,7 +19,9 @@ public class CreateTable {
            +"+ \" UserEmail VARCHAR\n" 
            +"(30),\\n\"\n" 
            +"+ \" UserPassword VARCHAR\n"
-           +"(15),\\n\"\n"  
+           +"(15),\\n\"\n"
+           +"+ \" UserRole VARCHAR\n"//will determine if its a user, teacher or admin
+           +"(20),\\n\"\n"
            +"\") ;\";";
    
    
